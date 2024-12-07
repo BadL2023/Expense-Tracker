@@ -131,6 +131,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     expenseForm.addEventListener('submit', handleSubmit);
+    monthSelect.addEventListener('change', updateChart);
+    yearSelect.addEventListener('chart', updateChart)
 
     //  Set the default month and year based on current month and year
     function setDefaultMonthYear() {
